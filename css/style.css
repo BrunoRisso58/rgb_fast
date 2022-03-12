@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../img/background.png");
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    padding-top: 10px;
+    width: 60%;
+    margin: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: end;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+#logo {
+    display: inline-block; 
+    width: 150px;
+    margin-bottom: 10px
+}
+
+.navbar {
+    float: right;
+    text-align: end;
+    width: 80%;
+    color: #5F5D5A;
+}
+
+.phone {
+    margin-bottom: 10px
+}
+
+#small_number {
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+
+#big_number {
+    font-weight: 100;
+}
+
+.pages_list {
+    list-style-type: none;
+    font-size: 0.9rem;
+    font-weight: 100;
+    float: right;
+    margin-top: 10px
+}
+
+.list_item {
+    display: inline;
+    margin-left: 20px
+}
