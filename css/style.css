@@ -1,4 +1,4 @@
-body {
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,10 +7,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header {
-    padding-top: 10px;
+.page {
     width: 60%;
     margin: auto;
+}
+
+.header {
+    padding-top: 10px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -57,4 +60,49 @@ body {
 .list_item {
     display: inline;
     margin-left: 20px
+}
+
+.main {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.grid_content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #5F5D5A;
+    margin-bottom: 20px;
+}
+
+.grid_content > img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.footer {
+    display: grid;
+    margin-bottom: 50px;
+
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-gap: 20px;
+
+    border-top: 1px solid #B3B3B3;
+    padding-top: 25px;
+    border-bottom: 1px solid #B3B3B3;
+    padding-bottom: 25px;
+}
+
+.grid_footer {
+    height: 100px;
+    background-color: aqua;
 }
